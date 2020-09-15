@@ -1,0 +1,641 @@
+
+/* General */
+
+body {
+    font-family: 'Libre Baskerville', serif;  
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+hr {
+    border: 2px rgb(230, 230, 230) solid;
+    border-bottom: 1px rgb(230, 230, 230) solid;
+    padding-bottom: 3px;
+}
+
+.full-wrapper {
+    max-width: 1600px;    
+}
+
+.color-green {
+    color: #1c954b;
+}
+
+::selection {
+    background-color: lightgreen;
+}
+
+/* Navbar */
+
+.form-inline button {
+    font-size: 14px;
+    padding-left: 0;
+   
+}
+
+.form-control {
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.navbar-all-categories {
+    color:rgb(82, 80, 80);
+}
+
+.nav-link-all-categories {
+    font-size: 12px;
+    color: grey;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+    
+}
+
+.navbar-menu-search {
+    font-size: 12px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    display: inline-block;
+    outline: none;
+    border-radius: 0;
+}
+
+.facebook, .twitter {
+    display: inline-block;
+}
+
+.facebook-icon, .facebook-text {
+    display: inline-block;
+    
+}
+
+.facebook-icon {
+    font-size: 14px;
+    color:#1c954b;
+    padding-right: 5px;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.facebook-text p {
+    color: black;
+    font-size: 12px;
+}
+
+.login {
+    display: inline-block;
+    padding-right:5px;
+}
+
+.login-icons {
+    color:#1c954b;
+    font-size:12px;   
+}
+
+.login-icon, .login-text {
+    display: inline-block;
+}
+
+.login-text {
+    font-size: 11px;
+}
+
+/* Second Navbar */
+
+.second-navbar-menu {
+    font-size: 14px;
+    text-align: center;
+    color: #1c954b;
+}
+
+.second-navbar-item {
+    display: inline-block;
+}
+
+.dropdown-item {
+    font-size: 13px;
+}
+
+/* Hero text carousel */
+
+.hero-text-carousel{
+    position: relative;
+}
+
+.overlay-carousel {
+    background-color: rgba(6, 104, 6, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-carousel h1 {     
+    padding-top: 25%;   
+    font-size: 86px;
+    font-family: "Great Vibes", Sans-serif; 
+    color:white;
+}
+
+.overlay-carousel a {
+    border: 2px white solid;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+   
+}
+
+.overlay-carousel a:hover {
+    border: 2px green solid;
+    color: green;
+    transition: 0.4s ease;
+}
+
+/* Reecent flowering additions  */
+
+.fa-certificate {
+    color:green;
+    font-size: 30px;
+    margin:5px;
+}
+
+.fa-star, .fa-star-half {
+    font-size: 10px;
+}
+
+.flowering-additions-1 {
+    border: 1px lightgrey solid;
+}
+
+.flowering-additions h1 {
+    font-size: 32px;
+}
+
+.flowering-additions h6 {
+    color: #1c954b;
+}
+
+.flowering-addition .fa-certificate {
+    color: #1c954b;
+}
+
+.flowering-additions {
+    position: relative;
+    z-index: 10;  
+    margin-top: -50px;    
+    width: 1000px;
+    padding: 50px;
+    background-color: white;
+    border: 1px grey solid;
+}   
+
+.flowering-additions-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.flowering-additions-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 253, 253, 0.8);    
+    opacity:0;
+}
+
+.flowering-additions-container img{
+    transition: transform 0.3s ease;
+}
+
+.flowering-additions-1:hover img{
+    transform: scale(1.25);
+}
+
+.flowering-additions-1:hover .flowering-additions-overlay {
+    opacity: 1;
+}
+
+.flowering-additions-overlay p {
+    font-size: 12px;
+    padding-top: 85px;
+}
+
+.flowering-additions-categories {
+    color: green;
+}
+
+.add-to-cart {
+    border: 1px lightgrey solid;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 11px;
+    color:grey;
+}
+
+.add-to-cart:hover {
+    color: grey;
+
+}
+
+/* Every flower counts */
+
+.info-box {
+    position: relative;
+    margin-top: -50px; 
+    
+}
+
+.info-text {
+    background-color: rgb(242, 242, 242);
+    padding-top: 100px; 
+}
+
+.info-image {
+    height: 100%;
+}
+
+.info-text hr {
+    border-top: 3px solid #61ce70;
+    width: 150px;    
+    margin-left: 0;
+}
+
+.info-text-image {
+    background-image: url('../photos/photo-20.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+    position:absolute;
+}
+
+
+/* Full width catalogue */
+
+.catalogue-image {
+    background-image: url('../photos/pink_flowers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;   
+    position: relative;   
+}
+
+
+.catalogue-overlay {
+    background: linear-gradient(rgb(0,0,0), rgb(14,163,71));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    opacity: 0.6;
+}
+
+.bg-green {
+    background-color: #19241d;
+}
+
+.product {
+    height:100%;   
+}
+
+.product hr {
+    border: 1px solid #61ce70;
+    width: 50px;  
+    padding: 0;
+   
+}
+
+.product-button a {
+    text-decoration:  none;
+    color: #ffffff;
+    background-color: #818a91;
+    padding: 10px 25px;
+    text-align: center;
+    border-radius: 3px;
+  
+}
+
+.product-button a:hover {
+    background-color: black;
+    transition: 0.3s ease;
+}
+
+
+/* 3 categories */
+
+.categories {
+    margin-top: -100px;
+}
+
+.first-image {
+    background-image: url("../photos/photo-22.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.second-image {
+    background-image: url("../photos/photo-18.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.third-image {
+    background-image: url("../photos/photo-9.jpg");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+}
+
+.categories-image:hover .first-image {
+    transform: scale(1.5);
+    filter: blur(2px); 
+}
+.categories-image:hover .categories-text-wrap {
+    color:green;
+}
+
+.image-box-categories-1:hover .second-image {
+    transform: scale(1.5);
+    filter: blur(2px); 
+}
+
+.image-box-categories-1:hover .third-image {
+    transform: scale(1.5);
+    filter: blur(2px); 
+}
+
+
+.image-box-categories-1 {
+    position: relative;
+    overflow: hidden;
+} 
+
+.categories-image {
+    position: relative;
+    border: 12px rgba(251, 251, 251, 0.8)  solid;      
+}  
+
+.categories-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background-color: rgba(6, 104, 6, 0.5);
+    transition:all 0.3s ease;
+    
+}
+
+.categories-text-wrap{
+    color: #ffff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+
+
+
+.categories-image:hover .categories-image-overlay {
+    opacity: 0.8;
+    color:green;
+    background-color: #ffffff;
+}
+
+
+/* Latest articles */
+
+.blog hr {
+    border-top: 3px solid #61ce70;
+    width: 50px;    
+    margin-left: 0;
+    padding: 0;
+
+}
+
+.blog-element {
+    border: 1px lightgreen solid;
+}
+
+.blog-element-text a {
+    color: #23a455;
+}
+
+.blog-button a {
+    background-color: #23a455;
+    color: #ffff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.blog-button a:hover {
+    background-color: #43bb71;
+    color: green;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.3s ease;
+}
+
+/* Footer */
+.footer-social-1  {
+    background-color: #43bb71;
+    height: 80px;
+}
+
+.footer-social-1 a {
+    color:#ffff;
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+.footer-bottom {
+    background-color: #444444;
+
+}
+
+.footer-text {
+    color:#c4c4c4;
+}
+
+.footer-text hr {
+    border: 1px solid #5a5a5a;
+    width: 100%;   
+    padding: 0;
+     
+}
+
+.footer-last p {
+    color:lightgrey;
+}
+
+.social-buttons-2 li {
+    display: inline-block;
+}
+
+.social-buttons-2 a {
+    display: block;
+    font-size: 12px;
+    color:lightgrey;
+    border-radius: 5px;   
+    width: 40px;
+    line-height: 40px;
+    height: 40px;  
+    margin-right: 4px;
+    text-align: center;
+}
+
+.social-btns:hover {
+    transform: scale(1.1); 
+    display: block;
+    font-size: 14px;
+    color:lightgrey;
+    border-radius: 5px;       
+}
+
+.social-buttons-2 .facebook  {
+    background-color: #3b5384;
+}
+
+.social-buttons-2 .instagram {
+    background-color: #3e698a;
+}
+
+.social-buttons-2 .twitter {
+    background-color: #6da4ce;
+}
+
+.social-buttons-2 .linkedin {
+    background-color: #0e6c9d;
+}
+
+.social-buttons-2 .pinterest {
+    background-color: #bc7076;
+}
+
+.blog-element {
+   margin-bottom: 20px;
+}
+
+.blog-row-1 {
+    padding-bottom: 0;
+}
+
+.arrow a{
+    font-size: 14px;
+    color: white;
+    background-color:  #4387bb;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px 15px;
+    bottom: 40px;
+    right: 40px;
+    position: fixed;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.arrow a.active{
+    opacity: 1;
+}
+
+.arrow a:hover {
+    color: #1c954b;
+    background-color: #52da86;
+    transition: 0.3s ease;    
+}
+
+
+/* ----------------------Product Page------------------------------- */
+
+
+.hero-product {
+    background-image: url('../photos/photo-lg-18.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+    position: center;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------Index-------------------------------- */
+/* Breakpoints */
+
+@media screen and (max-width: 1000px) {
+
+    .navbar-menu-first, .form-inline {
+        display: inline;
+     }
+
+    .facebook, .twitter {
+        display: none;
+    }
+
+    .login-icons {
+        text-align: center;
+        
+    }
+
+    .blog-element-header, .blog-element-header hr {
+        text-align: center;
+    }
+
+    .flowering-additions-1 {
+        margin-bottom: 15px;
+    }    
+    
+    .product-wrap {
+        margin-bottom: 2px;
+    }
+
+    .footer-column {
+
+    }
+
+
+
+
+
+}
+
+
